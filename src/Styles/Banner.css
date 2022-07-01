@@ -1,0 +1,101 @@
+/* --------------------------------- BANNER --------------------------------- */
+
+.banner-img {
+    width: -webkit-fill-available;
+}
+
+.banner-title {
+    position: relative;
+    display: flex;
+    width: 454px;
+    height: 45px;
+    color: #FFFFFF;
+    left: 200px;
+    z-index: 1;
+    bottom: 300px;
+    flex-direction: column;
+}
+
+.title {
+    width: 454px;
+    height: 45px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-family: 'Nunito';
+    font-size: 45px;
+    line-height: 1.5;
+    width: 522px;
+    height: 124px;
+    letter-spacing: 2px;
+}
+
+.banner-img-mobil {
+    display: none;
+}
+
+/* ------------------------------ media queries ----------------------------- */
+
+/* ---------------------------- Pantallas chicas ---------------------------- */
+
+    @media (max-width: 1500px) {
+        .banner-img {
+            width: -webkit-fill-available;
+        }
+
+        .banner-title {
+            position: relative;
+            display: flex;
+            width: 454px;
+            height: 45px;
+            color: #FFFFFF;
+            left: 200px;
+            z-index: 1;
+            bottom: 250px;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 1330px) {
+        .banner-img {
+            width: -webkit-fill-available;
+        }
+
+        .banner-title {
+            position: relative;
+            display: flex;
+            width: 454px;
+            height: 45px;
+            color: #FFFFFF;
+            left: 100px;
+            z-index: 1;
+            bottom: 220px;
+            flex-direction: column;
+        }
+    }
+
+/* --------------------------------- mobile --------------------------------- */
+
+    @media (max-width: 428px) {
+        .banner-img {
+            display: none;
+        }
+
+        .banner-title {
+            position: relative;
+            display: flex;
+            width: 454px;
+            height: 45px;
+            color: #FFFFFF;
+            left: 100px;
+            z-index: 1;
+            bottom: 220px;
+            flex-direction: column;
+        }
+
+        .banner-img-mobil {
+            display: block;
+            max-width: -webkit-fill-available;
+        }
+    }
